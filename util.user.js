@@ -16,7 +16,7 @@ window.onload = function ()
     window.agar.minScale = -30;
     window.addEventListener("keydown", function (event)
     {
-        if (event.keyCode === 81 && !ejectInterval)
+        if (event.keyCode === 69 && !ejectInterval)
         {
             ejectInterval = setInterval(function ()
             {
@@ -27,7 +27,7 @@ window.onload = function ()
     });
     window.addEventListener("keyup", function (event)
     {
-        if (event.keyCode === 81)
+        if (event.keyCode === 69)
         {
             clearInterval(ejectInterval);
             ejectInterval = null;
